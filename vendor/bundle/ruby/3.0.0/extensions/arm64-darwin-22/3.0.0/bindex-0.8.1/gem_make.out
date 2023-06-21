@@ -1,0 +1,15 @@
+current directory: /Users/sasatai/workspace/runteq_advanced/app_Heroku/heroku_deploy/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/sasatai/.rbenv/versions/3.0.0/bin/ruby -I /Users/sasatai/.rbenv/versions/3.0.0/lib/ruby/3.0.0 -r ./siteconf20230620-17250-bq0w9s.rb extconf.rb
+creating Makefile
+
+current directory: /Users/sasatai/workspace/runteq_advanced/app_Heroku/heroku_deploy/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/sasatai/workspace/runteq_advanced/app_Heroku/heroku_deploy/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/sasatai/workspace/runteq_advanced/app_Heroku/heroku_deploy/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20230620-17250-ztujuz/skiptrace/internal
